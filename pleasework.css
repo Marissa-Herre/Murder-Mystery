@@ -1,5 +1,10 @@
 body {
-  font-family: "Quintessential";
+  .quintessential-regular {
+    font-family: "Quintessential", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
     background-image: url("images/corner_decal.webp");
     background-repeat: no-repeat;
