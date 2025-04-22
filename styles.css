@@ -5,6 +5,10 @@
   }
 
   body {
+    background-image: url("images/corner_decal.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left 20px top 20px;
     background-color: maroon;
   }
   h1 {
