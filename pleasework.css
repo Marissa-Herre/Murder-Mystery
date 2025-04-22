@@ -5,10 +5,28 @@
   }
 
   body {
+
     background-image: url("images/corner_decal.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left 20px top 20px;
+
+    background-image: url("images/corner_decal.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    rotate: 90px;
+    background-position: left 100px top 20px;
+    
+    background-image: url("images/corner_decal.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left 20px top 200px;
+
+    background-image: url("images/corner_decal.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left 100px top 200px;
+
     background-color: maroon;
   }
   h1 {
