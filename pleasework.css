@@ -14,7 +14,7 @@
     background-image: url("images/corner_decal.webp");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    rotate: 90px;
+    transform: rotate(90deg);
     background-position: left 100px top 20px;
     
     background-image: url("images/corner_decal.webp");
