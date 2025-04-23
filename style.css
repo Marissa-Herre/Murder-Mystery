@@ -1,0 +1,37 @@
+body {
+    .quintessential-regular {
+      font-family: "Quintessential", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+  
+      background-image: url("images/corner_decal.webp");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: left 20px top 20px;
+  
+      background-image: url("images/corner_decal.webp");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      transform: rotate(90deg);
+      background-position: left 100px top 20px;
+      
+      background-image: url("images/corner_decal.webp");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: left 20px top 200px;
+  
+      background-image: url("images/corner_decal.webp");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: left 100px top 200px;
+  
+      background-color: maroon;
+    }
+    h1 {
+      color: white;
+    }
+    p {
+      color: white;
+    }
