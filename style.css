@@ -1,5 +1,6 @@
 @charset "UTF-*";
 /*CSS Document*/
+*{
 
 body {
     .quintessential-regular {
@@ -39,3 +40,6 @@ body {
     p {
       color: white;
     }
+
+
+}
