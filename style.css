@@ -17,17 +17,19 @@ body {
         url("images/corner_decal.webp") right bottom no-repeat,
     }
 
-
-
+    
       background-color: maroon;
     }
     
     h1 {
       color: white;
     }
-    p {
+    h2 {
       color: white;
     }
+    h3 {
+        color: white;
+      }
 
 
 }
