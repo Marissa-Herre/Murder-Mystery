@@ -30,18 +30,6 @@ a:active {
   text-decoration: underline;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 500px 50px 50px 50px;
-  gap: 10px;
-  padding: 10px;
-}
-.grid-container > div {
-  padding: 10px;
-  font-size: 15px;
-  text-align: center;
-  background-color: goldenrod;
-}
 
 </style>
 </head>
@@ -49,12 +37,18 @@ a:active {
 
 <header>Suspect 3: Ms. Magenta</header>
 
-<div class="grid-container">
-<div><a href=index.html>Home Page</a></div>
-<div><a href=About.html>About Page</a></div>
-<div><a href=Contact.html>Contact</a></td></div>
-<div><a href=Notes.html>Notes</a></div>
-</div>
+<table style="width: 100%; text-align: center; background-color: goldenrod; padding-right: 30px;">
+
+<tr>
+    <td><a href=index.html>Home Page</a></td>
+    
+    <td><a href=About.html>About Page</a></td>
+    
+    <td><a href=Contact.html>Contact</a></td>
+    
+    <td><a href=Notes.html>Notes</a></td>
+</tr>  
+</table>
 
 <img src="/images/Ms.Magenta.jpg" alt="Ms.Magenta">
 
