@@ -11,10 +11,13 @@ body {
     
 
     #tst {
-        background:url("images/corner_decal.psd") left top no-repeat, 
-        url("images/corner_decal.psd") right top no-repeat,
-        url("images/corner_decal.psd") left bottom no-repeat,
-        url("images/corner_decal.psd") right bottom no-repeat,
+        background:
+        url(/images/bigpage.jpg)
+        
+        url(/images/corner_decal.psd) left top no-repeat, 
+        url(/images/corner_decal.psd) right top no-repeat,
+        url(/images/corner_decal.psd) left bottom no-repeat,
+        url(/images/corner_decal.psd) right bottom no-repeat,
     }
 
     text-align: center;
