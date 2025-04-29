@@ -1,38 +1,29 @@
 @charset "UTF-*";
 /*CSS Document*/
-*{
+*{box-sizing: border-box;}
 
-body {
     .quintessential-regular {
       font-family: "Quintessential", serif;
       font-weight: 400;
-      font-style: normal;
-    }
+      font-style: normal;}
     
 
-    #tst {
-        background:
-        url(/images/bigpage.jpg)
-        
-        url(/images/corner_decal.psd) left top no-repeat, 
-        url(/images/corner_decal.psd) right top no-repeat,
-        url(/images/corner_decal.psd) left bottom no-repeat,
-        url(/images/corner_decal.psd) right bottom no-repeat,
-    }
-
+body{
+    background-image:url(images/bigpage.jpg);
     text-align: center;
-      background-color: maroon;
+    background-color: maroon;
     }
-    
-    h1 {
-      color: white;
+
+
+
+h1 {
+    color: white;
     }
-    h2 {
-      color: white;
+h2 {
+    color: white;
     }
-    h3 {
-        color: white;
+h3 {
+    color: white;
       }
+ 
 
-
-}
