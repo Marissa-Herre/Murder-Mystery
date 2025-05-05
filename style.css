@@ -10,6 +10,7 @@
 
 body{
     background-image:url(images/bigpage.png);
+    padding-left: 500;
     background-repeat: no-repeat;
     background-color: maroon;
     }
