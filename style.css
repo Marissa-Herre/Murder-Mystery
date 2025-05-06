@@ -2,11 +2,16 @@
 /*CSS Document*/
 *{box-sizing: border-box;}
 
-    .quintessential-regular {
+    .quintessential-large {
       font-family: "Quintessential", serif;
       font-weight: 400;
-      font-style: normal;}
-    
+      font-style: normal;
+      font-size: 90px;}
+
+      .quintessential-regular {
+        font-family: "Quintessential", serif;
+        font-weight: 400;
+        font-style: normal;}
 
 body{
     background-image:url(images/bigpage.png);
@@ -19,12 +24,15 @@ body{
 
 h1 {
     color: white;
+    text-align: center;
     }
 h2 {
     color: white;
+    text-align: center;
     }
 h3 {
     color: white;
+    text-align: center;
       }
  
 
