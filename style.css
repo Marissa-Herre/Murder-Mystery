@@ -6,7 +6,7 @@
       font-family: "Quintessential", serif;
       font-weight: 400;
       font-style: normal;
-      font-size: 90px;}
+      font-size: 70px;}
 
       .quintessential-regular {
         font-family: "Quintessential", serif;
@@ -15,7 +15,8 @@
 
 body{
     background-image:url(images/bigpage.png);
-    background-position: 50% -700%;
+    display: block;
+    margin: auto;
     background-repeat: no-repeat;
     background-color: maroon;
     }
@@ -33,6 +34,6 @@ h2 {
 h3 {
     color: white;
     text-align: center;
-      }
+    }
  
 
