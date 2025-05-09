@@ -42,25 +42,41 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
-</style></head>
 
+.button {
+  background-color: goldenrod;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;  
+}
+
+div{
+  text-align: center;
+}
+
+</style>
+</head>
 <body>
 
 
-    <table style="width: 100%; text-align: center; background-color: goldenrod; padding-right: 30px;">
-        <tr>
-            <td><a href=index.html>Home Page</a></td>
-            <td><a href=About.html>About Page</a></td>
-            <td><a href=Contact.html>Contact</a></td>
-            <td><a href=Notes.html>Notes</a></td>
-        </tr>  
-        </table>
+<table style="width: 100%; text-align: center; background-color: goldenrod; padding-right: 30px;">
+ <tr>
+    <td><a href=index.html>Home Page</a></td>
+    <td><a href=About.html>About Page</a></td>
+    <td><a href=Contact.html>Contact</a></td>
+    <td><a href=Notes.html>Notes</a></td>
+  </tr>  
+</table>
 
 
-        <h3 class="quintessential-regular">Figure out who was where, who had acsess to what tools, and who the Murderer is!</h3>
-
-<form action="/action_page.php">
-    <p></p>
+<h3 class="quintessential-regular">Figure out who was where, who had acsess to what tools, and who the Murderer is!</h3>
+        
+<p></p>
     
     <table class="pancakes"; table style="width:100%">
     
@@ -164,10 +180,12 @@ a:active {
     <td> <input type="checkbox"></td>
     </tr>
     </table>
-    
-    <p></p>
-    <input type="submit" value="change to link to a reveal page">
-    
-    </form>
+
+<div>
+<a href="Reveal.html" class="button">Link Button</a>
+</div>
+<p></p>
+
+</form>
 </body>
 </html>
