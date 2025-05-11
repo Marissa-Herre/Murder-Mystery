@@ -11,11 +11,6 @@
 
 
 <style>
-    form {
-    padding: 15px;
-    text-align:center;
-    }
-
     a {
       color: white;
     }
@@ -31,11 +26,16 @@ a:hover {
 a:active {
   text-decoration: underline;
 }
+
+div
+{text-align: center;}
+
 </style>
 </head>
+
 <body>
 
-<h2 class="quintessential-large">Reach Out To Me!</h2>
+<h1 class="quintessential-large">Reach Out to Me!</h1>
 
 <table style="width: 100%; text-align: center; background-color: goldenrod; padding-right: 30px;">
     <tr>
@@ -55,14 +55,15 @@ a:active {
     Let me know!
 </h3>
 
-<form action="/action_page.php">
-    <label for="fname">Player Name:</label><br>
+<div>
+<label for="fname">Player Name:</label><br>
     <input type="text" id="fname" name="fname"><br>
     <p></p>
     <label for="lname">Thoughts On The Game:</label><br>
     <input type="text" id="lname" name="lname"><br><br>
     <input type="submit" value="Submit">
   </form>
+</div>
 
 </body>
 </html>
