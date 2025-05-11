@@ -6,8 +6,7 @@
       font-family: "Quintessential", serif;
       font-weight: 400;
       font-style: normal;
-      font-size: 70px;
-    padding: 0px;
+      font-size: 60px;
     }
 
       .quintessential-regular {
@@ -23,7 +22,7 @@ body{
     background-color: maroon;
     background-position: center;
     background-size: 900px;
-    padding-top: 100px;
+    padding-top: -250px;
     background-position: 50% 220px;
     }
 
