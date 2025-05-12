@@ -16,15 +16,14 @@
 
 
 body{
+
     background-image:url(images/bigpage.png);
     display: block;
     margin: auto;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-color: maroon;
     background-position: center;
     background-size: 1000px;
-    padding-top: -250px;
-    background-position: 50% 220px;
     }
 
 
